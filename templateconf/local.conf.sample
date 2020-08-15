@@ -1,9 +1,7 @@
-MACHINE ?= "phyboard-segin-imx6ul-2"
+MACHINE ?= "UNASSIGNED"
 
 DISTRO ?= "yogurt"
 
-BB_NUMBER_THREADS = "8"
-PARALLEL_MAKE = "-j 8"
 ########################
 # global configuration #
 ########################

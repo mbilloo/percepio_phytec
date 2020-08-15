@@ -1,0 +1,4 @@
+SANITY_VERSION 1
+TMPDIR /home/mbilloo/percepio/percepio_phytec/build/tmp
+SSTATE_DIR /home/mbilloo/percepio/percepio_phytec/build/sstate-cache
+NATIVELSBSTRING ubuntu-18.04

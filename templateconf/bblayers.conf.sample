@@ -5,7 +5,7 @@ POKY_BBLAYERS_CONF_VERSION = "2"
 BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
-OEROOT := "/home/mbilloo/percepio/percepio_phytec/sources/poky"
+OEROOT := "##OEROOT##"
 BBLAYERS  ?= " \
   ${OEROOT}/meta \
   ${OEROOT}/meta-poky \
@@ -13,12 +13,4 @@ BBLAYERS  ?= " \
   ${OEROOT}/../meta-openembedded/meta-networking \
   ${OEROOT}/../meta-openembedded/meta-python \
   ${OEROOT}/../meta-openembedded/meta-multimedia \
-  "
-BBLAYERS += "\
-  ${OEROOT}/../meta-gstreamer1.0 \
-  ${OEROOT}/../meta-phytec \
-  ${OEROOT}/../meta-qt5 \
-  ${OEROOT}/../meta-rauc \
-  ${OEROOT}/../meta-yogurt \
-  ${OEROOT}/../meta-mab-percepio \
   "
